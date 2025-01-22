@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card-container{
+            background-color: aqua;
+            padding: 16px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 16px;
+        }
+        .card{
+            display: flex;
+            min-height: 400px;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: azure;
+            border-top-right-radius: 12px;
+            border-top-left-radius: 12px;
+            box-shadow: black;
+        }
+        .card-top{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .card-bottom{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .button-know-more{
+            padding: 6px 12px;
+            flex-grow: 1;
+            text-align: center;
+            background-color: blue;
+
+        }
+        .button-registration{
+            padding: 6px 12px;
+            flex-grow: 1;
+            background-color: brown;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <div class="card-top">
+                <div class="card-img">
+                    <img src="https://picsum.photos/id/21/300/200" alt="TOEFL Preparation" class="card-image">
+
+                </div>
+                <div class="card-content">
+                    <div class="card-title">
+                        IELTS
+
+                    </div>
+                    <div class="card-content">
+                        <p>Expert-led TOEFL training to enhance your English proficiency for academic success.</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="card-bottom">
+                <a href="" class="button-know-more">Know More</a>
+                <a href="" class="button-registration">Online Registration</a>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-top">
+                <div class="card-img">
+                    <img src="https://picsum.photos/id/21/300/200" alt="TOEFL Preparation" class="card-image">
+
+                </div>
+                <div class="card-content">
+                    <div class="card-title">
+                        IELTS
+
+                    </div>
+                    <div class="card-content">
+                        <p>Expert-led TOEFL training to enhance your English proficiency for academic success.</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="card-bottom">
+                <a href="" class="button-know-more">Know More</a>
+                <a href="" class="button-registration">Online Registration</a>
+
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+.english-test-preparation {
+    padding: 60px 0;
+    background-color: var(--bg-100);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section-heading {
+    font-size: 2.5rem;
+    color: var(--primary-200);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section-subheading {
+    font-size: 1.2rem;
+    color: var(--text-200);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .card {
+    background-color: var(--bg-300);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    flex-basis: calc(33.333% - 20px);
+    text-align: center;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.8rem;
+    color: var(--primary-200);
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: var(--text-100);
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+  
+  .card-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-100);
+    color: var(--primary-300);
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--primary-200);
+  }
+  
+  .btn-secondary {
+    background-color: var(--accent-100);
+    color: var(--text-100);
+  }
+  
+  .btn-secondary:hover {
+    background-color: var(--accent-200);
+    color: var(--primary-300);
+  }
+  
+  @media (max-width: 1024px) {
+    .card {
+      flex-basis: calc(50% - 15px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex-basis: 100%;
+    }
+  
+    .section-heading {
+      font-size: 2rem;
+    }
+  
+    .section-subheading {
+      font-size: 1rem;
+    }
+  }
+  
+  
